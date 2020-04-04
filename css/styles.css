@@ -1,0 +1,101 @@
+body {
+  background-color: #4d4c7d;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 300%;
+}
+
+h2 {
+  color: inherit;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+h3 {
+  color: inherit;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+  background-color: #4d4c7d;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  padding: 30px;
+  margin: 0px auto 50px auto;
+  text-align: center;
+  line-height: 0.1;
+}
+
+.inside {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+
+.intro {
+  color: #827397;
+  background-color: white;
+  position: relative;
+  max-width: 750px;
+  line-height: 1;
+  padding: 20px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.skills {
+  background-color: #827397;
+  color: white;
+  max-width: 750px;
+  line-height: 1;
+  padding: 5px 20px 5px 20px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+#web-dev {
+  text-align: left;
+
+}
+
+#coffee {
+  text-align: right;
+}
+
+.skills-photos {
+  width: 150px;
+  display: block;
+  position: relative;
+}
+
+#imac {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+#chemex {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.cat {
+  width: 200px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 175px;
+  text-align: center;
+}
