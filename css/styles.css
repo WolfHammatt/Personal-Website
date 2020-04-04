@@ -2,7 +2,6 @@ body {
   background-color: #4d4c7d;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
 h2 {
   color: inherit;
   font-family: 'Baloo Da 2', cursive;
+  padding-bottom: 15px;
 }
 
 h3 {
@@ -24,6 +24,19 @@ p {
   font-family: 'Roboto Mono', monospace;
 }
 
+.footer-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4d4c7d;
+  text-decoration: none;
+  font-family: 'Baloo Da 2', cursive;
+  margin: 50px 15px 50px 15px;
+}
+
+.footer-link:hover{
+  color: #827397;
+}
+
 .header {
   background-color: #4d4c7d;
   width: 100%;
@@ -31,8 +44,8 @@ p {
   display: inline-block;
   color: white;
   font-family: "Gill Sans", sans-serif;
-  padding: 30px;
-  margin: 0px auto 50px auto;
+  padding: 30px 0 30px 0;
+  margin: 0px auto 20px auto;
   text-align: center;
   line-height: 0.1;
 }
@@ -49,8 +62,8 @@ p {
   background-color: white;
   position: relative;
   max-width: 750px;
-  line-height: 1;
-  padding: 20px;
+  line-height: 1.5;
+  padding: 40px 20px 20px 20px;
   margin: 0 auto 20px auto;
   text-align: center;
 }
@@ -59,7 +72,7 @@ p {
   background-color: #827397;
   color: white;
   max-width: 750px;
-  line-height: 1;
+  line-height: 1.5;
   padding: 5px 20px 5px 20px;
   margin: 0 auto 20px auto;
   text-align: center;
@@ -82,12 +95,12 @@ p {
 
 #imac {
   float: left;
-  margin: 0 20px 20px 0;
+  margin: 0 20px 10px 0;
 }
 
 #chemex {
   float: right;
-  margin: 0 0 20px 20px;
+  margin: 0 0 10px 20px;
 }
 
 .cat {
@@ -97,5 +110,11 @@ p {
 .profile-pic {
   border-radius: 50%;
   width: 175px;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: white;
+  width: 100%;
   text-align: center;
 }
