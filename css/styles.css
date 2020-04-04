@@ -114,6 +114,7 @@ p {
 }
 
 .bottom-container {
+  padding: 20px;
   background-color: white;
   width: 100%;
   text-align: center;
